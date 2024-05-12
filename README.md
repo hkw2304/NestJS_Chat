@@ -12,3 +12,12 @@
 </ol>
 <hr>
 
+<h4>1. 패키지 설치하기</h4>
+<b>@nestjs/websockets</b> : 클라이언트와 서버를 연결하고 양방향 통신 또는 데이터 전송이 가능하게 해주는 패키지
+<br>
+<b>@nestjs/platform-socket.io</b> : 웹소켓의 성능향상이나, 실시간 데이터 동기화 같은 웹소켓 프로토콜 기반의 프로그램 작성시 필수인 패키지
+<br><br>
+<h4>2. 정적 파일 서비스 설정</h4>
+
+![정적파일서비스](https://github.com/hkw2304/NestJS_Chat/assets/111471255/c418a04a-5499-433a-8f81-23ddf82c16b1)
+
