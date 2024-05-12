@@ -21,3 +21,17 @@
 
 ![정적파일서비스](https://github.com/hkw2304/NestJS_Chat/assets/111471255/c418a04a-5499-433a-8f81-23ddf82c16b1)
 
+<h4>3. 서버 측 작업을 위한 게이트웨이 만들기</h4>
+
+NestJS에서 웹소켓을 이용한 통신을 받아주는 클래스를 게이트웨이라한다.
+
+![게이트웨이 만들기](https://github.com/hkw2304/NestJS_Chat/assets/111471255/ce451f9f-8e0a-457a-a55c-d4e34934f26b)
+
+<h4>클라이언트 측 index.html 작성</h4>
+
+![인덱스](https://github.com/hkw2304/NestJS_Chat/assets/111471255/7beb4230-102a-4480-9c19-70ae3af2f933)
+
+
+
+
+
