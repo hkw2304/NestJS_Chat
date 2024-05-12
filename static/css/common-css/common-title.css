@@ -1,0 +1,26 @@
+#common-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px 0px 10px;
+  box-sizing: border-box;
+
+  position: relative;
+}
+.common-title__img {
+  position: absolute;
+  right: 8px;
+}
+.common-title__img span {
+  padding: 8px;
+}
+
+.common-title__img__gear-dot {
+  position: relative;
+  right: 5px;
+  top: -18px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: red;
+}

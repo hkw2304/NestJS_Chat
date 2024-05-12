@@ -1,0 +1,9 @@
+#state-bar {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,77 @@
+#common-bottom {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.common-bottom__nav-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+.common-bottom__nav-item li {
+  opacity: 0;
+}
+.common-bottom__nav-item li:nth-child(1) {
+  animation: trans 1s ease-in-out forwards;
+}
+.common-bottom__nav-item li:nth-child(2) {
+  animation: trans 1s 0.2s ease-in-out forwards;
+}
+.common-bottom__nav-item li:nth-child(3) {
+  animation: trans 1s 0.3s ease-in-out forwards;
+}
+.common-bottom__nav-item li:nth-child(4) {
+  animation: trans 1s 0.4s ease-in-out forwards;
+}
+@keyframes trans {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.move-circle {
+  position: relative;
+}
+.move-circle span {
+  position: absolute;
+  top: -8px;
+  right: -3px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+  background-color: red;
+  color: #ffffff;
+  animation: rotate 1s ease-in-out infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+.dotted {
+  position: relative;
+}
+.dotted .dot {
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+}

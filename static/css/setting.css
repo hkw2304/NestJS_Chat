@@ -1,0 +1,29 @@
+#setting-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+.main-bar {
+  margin-top: 30px;
+}
+.main-bar__item {
+  font-size: 30px;
+  padding: 15px;
+}
+.main-bar__item i {
+  opacity: 0.6;
+  margin-right: 30px;
+}
+.settings-line-wrap {
+  padding: 0px 15px 0px 15px;
+}
+.main-bar__item:nth-child(5) {
+  display: flex;
+  justify-content: space-between;
+}
+.version-latest span {
+  font-size: 22px;
+  opacity: 0.5;
+}

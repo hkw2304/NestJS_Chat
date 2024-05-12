@@ -4,24 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>Simple Nest Chat</h2>
-    <div>
-        <h2>공지
-        </h2>
-        <div id="notice"></div>
-    </div>
-    <div>
-        <h2>채팅방 목록</h2>
-        <ul id="rooms"></ul>
-    </div>
-    <div id="chat"></div>
-    <input type="text" id="message" placeholder="메시지를 입력해주세요.">
-    <button onclick="sendMessage()">전송</button>
-    <button onclick="createRoom()">방 만들기</button>
+    <div id="chatting-wrap">
+        <div id="state-bar">
+          <div class="state-bar__left">
+            <span>No service</span>
+            <i class="fa-solid fa-wifi"></i>
+          </div>
+          <div class="state-bar__center">
+            <span>13:12</span>
+          </div>
+          <div class="state-bar__right">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+          </div>
+        </div>
+        <div id="setting-bar">
+          <a href="chats.html">
+            <i class="fa-solid fa-angle-left fa-3x"></i>
+          </a>
+          <h1>Simple Nest Chat</h1>
+          <div class="setting-bar__right">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+        </div>
+        <div class="chatting-section">
+            <div class="chatting-section__setting">
+            <h2>채팅방 목록</h2>
+            <button onclick="createRoom()">방 만들기</button>
+            </div>
+            <div class="chatting-scroll">
+                <ul id="rooms"></ul>
+            </div>
+        </div>
+        <div class="notice-section">
+            <h2>공지
+            </h2>
+            <div id="notice"></div>
+        </div>
+        <div class="chat-section">
+          <div class="chat-section__info">
+            <div id="chat"></div>
+          </div>
+        </div>
+        <div class="search-bar">
+          <i class="fa-solid fa-square-plus fa-2x"></i>
+          <input type="text" id="message" placeholder="메시지를 입력해주세요.">
+          <div class="search-bar__text__button">
+            <i class="fa-solid fa-face-smile fa-lg"></i>
+            <button onclick="sendMessage()">전송</button>
+          </div>
+        </div>
+      </div>
 </body>
 <!-- jquery 로드 -->
+<script
+        src="https://kit.fontawesome.com/86bc6866a5.js"
+        crossorigin="anonymous"
+      ></script>
 <script src="https://code.jquery.com/jquery-3.6.1.slim.js">
 </script>
 <!-- socket.io 인스턴스 생성 -->
