@@ -40,6 +40,13 @@ https://github.com/hkw2304/NestJS_Chat/assets/111471255/187d43b0-7919-4613-9ff4-
 
 
 
+https://github.com/hkw2304/NestJS_Chat/assets/111471255/986383e4-06c3-4c35-ba97-5e525ef7ad45
+
+
+
+
+
+
 
 
 
